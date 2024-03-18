@@ -2,6 +2,7 @@
 An archive in my journey of learning Python, using annaconda.
 
 03/17/24 - 2041 - Folder "Single Purpose Projects" added.
+
   -File: arraySummation- 
     Function: The script will prompt the user to enter a series of numbers that will then be added into the array. when the user is finished the array will be sumed together using a loop. which will then present the total to the user.
     Purpose: Demonstrates the use of loops & arrays in Python, while also demonstrating the ability to make a basic debug log.
