@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 user = os.environ.get('USERNAME', 'default_user')
-debug_log_path = os.path.join("C:","Users",user,"Videos","Code Trash", "DebugLog")
+debug_log_path = os.path.join("C:", "DebugLog")
 if not os.path.exists(debug_log_path):
     os.makedirs(debug_log_path)
 
@@ -29,7 +29,9 @@ def numInput():
             debug_numberAdditionLog("Breaking loop...")
             break
         try: 
-            numbers.append(int(num))
+            numbers.append(float(num))
+
+                
         except ValueError:
             print("Invalid input. Please enter a valid number.")
             debug_numberAdditionLog("Invalid number has been entered")
